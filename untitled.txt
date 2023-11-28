@@ -1,0 +1,41 @@
+@if(session()->has('success'))
+<div class="alert alert-success">
+{{ session()->get('success') }}
+</div>
+@endif
+        @error("name")
+        <div class="alert-danger">{{$message}}</div>
+        @enderror
+      <br>
+        <input type="text"name="name"placeholder="project name"id="name"> 
+        <br>
+        @error("description")
+        <div class="alert alert-danger">{{$message}}</div>
+        @enderror
+      <br>
+      
+      
+      
+            <br>
+        @error("image")
+        <div class="alert alert-danger">{{$message}}</div>
+        @enderror
+        <input type="file"id="file"name="image">
+        <label for="file">Choose a file</label>
+    <br>
+        <button type="submit"id="upload">upload</button>
+        
+        
+        
+        #upload-data button{
+  padding:10px 30px;
+  font-family:arial;
+  background:none; border:none;
+  font-size:18px;
+  color:#EEF0FF;
+  background-color:#4361EE;
+  border:3px solid #EEF0FF;
+  outline:1.5px solid #4361EE;
+  border-radius:5px;
+  opacity:0.7;
+}

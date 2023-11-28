@@ -1,0 +1,127 @@
+*{
+  margin:0; padding:0;
+}
+body{
+  background-color:#E6E8F7;
+  font-family:arial;
+  color:#31333F;
+  margin-top:10%;
+  font-size:18px;
+}
+section{
+  max-width:90%;
+  max-height:auto;
+  position:relative;
+  margin:0 auto;
+  background-color:#EEF0FF;
+  bakground:linear-gradient(#,#EEF0FF);
+  border:1px solid #5aa9f1;
+  border-radius:10px;
+  padding:35px 20px;
+  bo-shadow:1px 1px 10px #4361EE;
+  box-shadow:0.5px 1px 7px #5aa9f1;
+  ouline:1px solid #E6E8F7;
+  ouline:2px solid #4361EE;
+}
+section > nav ul li:nth-child(1){
+  width:50px; height:50px; background-color:#E6E8F7;
+  border-radius:100%;
+}
+
+section > nav ul li:nth-child(5){
+  width:50px; height:50px; background-color:#E6E8F7;
+  border-radius:100%;
+}
+nav ul{
+  display:flex;
+  list-style:none;
+  justify-content:space-between;
+}
+section > nav ul li a button{
+  font-family:arial;
+  color:#4361EE;
+  font-size:18px;
+  font-weight:bold;
+  
+  background-color:#E6E8F7;
+  border:none;
+  padding:8px 20px;
+  border-radius:10px;
+  boder:4px solid #EEF0FF;
+  outine:0.5px solid #4361EE;
+  transition:0.2s;
+}
+section > nav ul li a button:hover{
+  font-family:arial;
+  color:#EEF0FF;
+  font-size:18px;
+  font-weight:bold;
+  
+  background-color:#4361EE;
+  border:none;
+  padding:8px 20px;
+  border-radius:10px;
+  boder:4px solid #EEF0FF;
+  outine:0.5px solid #4361EE;
+  transition:0.2s;
+}
+
+
+.content > nav ul li button{
+  background-color:#4361EE;
+  color:#EEF0FF;
+  margin-top:7%;
+  opacity:0.7;
+  borer:none; border-radius:7px;
+  padding:7px 15px;
+  border:3px solid #EEF0FF;
+  outline:1.5px solid #4361EE;
+  
+}
+
+.content{
+  margin-top:10%;
+  display:flex;
+}
+.content > nav ul{
+  display:block;
+  margin-left:100px;
+  margin-top:20px;
+}
+.content > nav li{
+}
+
+.picture img{
+  width:60%; height:auto;
+  float:right;
+  margin-right:100px;
+  z-index:-2;
+  margin-top:-5%;
+  background-color:#E6E8F7;
+  border-radius:100%;
+  border:10px solid #EEF0FF;
+  outline:15px solid #E6E8F7;
+}
+
+
+.last{
+  width:200px;
+  position: relative;
+  margin-left:65px;
+  margin-top:-40px;
+  opacity:0.7;
+}
+.last ul{
+  display:flex;
+  justify-content:space-around;
+}
+ .last ul li img{
+  position: absolute;
+  width:15%; height:auto;
+  text-decoration:none;
+}
+.last ul li{list-style:none;}
+.last ul li a button{
+  background:none;
+  border:none;
+}
